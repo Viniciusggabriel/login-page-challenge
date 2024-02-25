@@ -1,0 +1,30 @@
+@media (max-width: 1000px) {
+  main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+  .figure {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .figure {
+    display: none;
+  }
+
+  .form {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .google > span {
+    font-size: 120%;
+  }
+}
