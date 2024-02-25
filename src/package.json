@@ -1,0 +1,17 @@
+{
+  "name": "login-page-challenge",
+  "version": "1.0.0",
+  "description": "Tela de login",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Vinicius Gabriel",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jsdom": "^24.0.0"
+  }
+}

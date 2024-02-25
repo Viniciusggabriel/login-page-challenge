@@ -22,3 +22,6 @@ const submitForm = (event) => {
 };
 
 document.getElementById("submit").addEventListener("click", submitForm);
+
+// Exporta para testes
+module.exports = { emailValidation, passwordValidation, submitForm };
